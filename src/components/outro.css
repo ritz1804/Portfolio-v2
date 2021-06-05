@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
+.outro > h1 {
+    margin: 0;
+}
+
+.outro > .text > .connect {
+    margin-bottom: 15%;
+}
+
+.outro {
+    font-family: 'MonumentExtendedRegular';
+    font-size: 4vw;
+    /* color: white; */
+    margin: 0 15%;
+    letter-spacing: 2px;
+}
+
+h1 > .connect {
+    display: inline-block;
+    position: relative;
+}
+
+h1 > .connect::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.1em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+}
+  
+h1 > .connect:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+h1 > .connect > a {
+    text-decoration: none;
+    color: #F5EFE1;
+}

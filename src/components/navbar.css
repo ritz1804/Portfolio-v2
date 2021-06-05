@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MonumentExtendedUltrabold';
+    src: url('../fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.navbar_items {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar_empty {
+    margin-left: 60vw;
+}
+
+.navbar_items > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MonumentExtendedUltrabold';
+    font-size: 1rem;
+}

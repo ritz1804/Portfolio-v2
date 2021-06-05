@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'UniviaProRegular';
+    src: url('../fonts/UniviaPro-Regular.woff2') format('woff2');
+}
+
+.about {
+    margin: 0 5%;
+}
+
+.about_greet > h1 {
+    font-size: 7vw;
+    letter-spacing: 1px;
+    margin-top: -80px;
+    margin-bottom: 0;
+    font-family: 'MonumentExtendedRegular';
+}
+
+.about_greet > h2 {
+    font-size: 1vw;
+    margin-top: 0;
+    margin-left: 50%;
+    font-family: 'MonumentExtendedRegular';
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.circ {
+    margin-left: 11%;
+    margin-top: -18%;
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    display: inline-block;
+    border-top: 1px solid transparent;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    transform: rotate(45deg);
+}
+
+p {
+    margin-top: 19vh;
+    margin-left: 14vh;
+    transform: rotate(-45deg);
+    font-family: 'UniviaProRegular';
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.about_me > h3 {
+    margin-left: 30%;
+    margin-top: -5%;
+    font-family: 'UniviaProRegular';
+    font-size: 1vw;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.about_contact > h4 {
+    margin-top: 20%;
+    margin-left: 30%;
+    font-family: 'MonumentExtendedRegular';
+    font-size: 4vw;
+}
+
+h4 {
+    letter-spacing: 2px;
+}
+
+h4:hover {
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 2px;
+}
+
+h4:hover {
+    cursor: pointer;
+}

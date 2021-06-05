@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'UniviaProRegular';
+    src: url('../fonts/UniviaPro-Regular.woff2') format('woff2');
+}
+
+.work {
+    text-align: left;
+    font-family: 'MonumentExtendedRegular';
+    /* color: white; */
+    margin: 0 15%;
+}
+
+.work > h1 {
+    margin-top: 200px;
+    font-size: 6vw;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+.item1 > h2 {
+    margin-left: 20%;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.item1 > h3 {
+    font-size: 1vw;
+    font-family: 'UniviaProRegular';
+    /* color: grey; */
+}
+
+.item4 > h2 {
+    padding-left: 20%;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.item4 > h3 {
+    margin-left: 30%;
+    font-size: 1vw;
+    font-family: 'UniviaProRegular';
+    /* color: grey; */
+}
+
+.container {
+    display: flex;  
+    max-height: 480px;
+    margin-bottom: 10%;
+}
+
+.item1 {
+    flex: 0.35;
+}
+
+.item2 {
+    margin-left: 8%;
+    flex: 0.65; 
+    background: url(1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.item3 {
+    flex: 0.65; 
+    background: url(2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.item4 {
+    flex: 0.35;
+}
+
+.item1 > h3 {
+    padding-left: 30%;
+}
+
+.item5 > h2 {
+    margin-left: 20%;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.item5 > h3 {
+    font-size: 1vw;
+    font-family: 'UniviaProRegular';
+    /* color: grey; */
+}
+
+.item8 > h2 {
+    padding-left: 20%;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.item8 > h3 {
+    margin-left: 30%;
+    font-size: 1vw;
+    font-family: 'UniviaProRegular';
+    /* color: grey; */
+}
+
+.item5 {
+    flex: 0.35;
+}
+
+.item6 {
+    margin-left: 8%;
+    flex: 0.65; 
+    background: url(3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.item7 {
+    flex: 0.65; 
+    background: url(4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.item8 {
+    flex: 0.35;
+}
+
+.item5 > h3 {
+    padding-left: 30%;
+}

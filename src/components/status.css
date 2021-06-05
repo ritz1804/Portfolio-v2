@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
+.status {
+    text-align: left;
+    font-family: 'MonumentExtendedRegular';
+    /* color: white; */
+    margin: 0 15%;
+}
+
+.status_info > h2 {
+    font-size: 3vw;
+    margin-top: 30%;
+    margin-bottom: 0;
+}
+
+.status_info > h3 {
+    font-size: 3vw;
+    margin-bottom: 30%;
+    margin-top: 0;
+}
+
+.status {
+    display: flex; 
+    margin-top: 20%; 
+    margin-bottom: 20%;
+}
+
+.status_info {
+    flex: 0.3;
+}
+
+.status_gif {
+    flex: 0.7;
+    background: url(monkey.gif) no-repeat 50% 50%;
+    background-size: cover;
+    margin-left: 20%;
+}

@@ -16,12 +16,15 @@ body::before {
 
 html {
     scroll-behavior: smooth;
+    cursor: none;
 }
 
 body {
-    background: url(movie.jpg) no-repeat 50% 50%;
-    background-size: cover;
     background-color: black;
+}
+
+a {
+    cursor: none;
 }
 
 .percent {
@@ -50,9 +53,9 @@ body {
 }
 
 h5 {
-    margin-left: 10px;
+    margin-left: 1vw;
     font-family: 'MonumentExtendedRegular';
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 

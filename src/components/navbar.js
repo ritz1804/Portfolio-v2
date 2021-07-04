@@ -6,7 +6,7 @@ function Navbar() {
         <div className = "navbar">
             <div className = "navbar_items">
                 <h1 className = "navbar_empty">{" "}</h1>
-                <a href="#about">About</a>
+                <a className = "nav_link" href="#about">About</a>
                 <a href="#work">Work</a>
                 <a href="mailto: subash.nehru123@gmail.com">Contact me</a>
             </div>

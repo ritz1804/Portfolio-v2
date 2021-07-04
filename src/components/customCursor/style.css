@@ -1,0 +1,24 @@
+.main-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid white;
+    pointer-events: none;
+    overflow: hidden; 
+    transform: translate3d(0, 0, 0); 
+    position: fixed;
+}
+
+.secondary-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0); 
+    position: fixed;
+}

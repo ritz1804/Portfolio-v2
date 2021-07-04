@@ -1,5 +1,4 @@
 import React from "react";
-import first from "./1.jpg";
 import "./work.css";
 
 function Work() {

@@ -9,7 +9,7 @@ footer {
     text-align: center;
     width: 97%;
     background-color: #F5EFE1;
-    padding: 60px 0;
+    padding: 8vh 0;
     margin-bottom: 1.5%;
 }
 
@@ -25,7 +25,7 @@ footer {
     color: #000;
     text-decoration: none;
     font-family: 'MonumentExtendedRegular';
-    font-size: 0.9rem;
+    font-size: 1vw;
 }
 
 .footer_links > a::after {
@@ -34,7 +34,7 @@ footer {
     width: 100%;
     transform: scaleX(0);
     border-radius: 5px;
-    height: 0.1em;
+    height: 0.1vw;
     bottom: 0;
     left: 0;
     background: currentcolor;

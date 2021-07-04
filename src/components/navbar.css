@@ -20,12 +20,16 @@ body {
 }
 
 .navbar_empty {
-    margin-left: 60vw;
+    margin-left: 50vw;
 }
 
 .navbar_items > a {
     color: white;
     text-decoration: none;
     font-family: 'MonumentExtendedUltrabold';
-    font-size: 1rem;
+    font-size: 1vw;
+}
+
+.navbar_items > a:hover {
+    font-size: 1.2vw;
 }

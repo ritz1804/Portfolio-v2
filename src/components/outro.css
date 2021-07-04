@@ -32,7 +32,7 @@ h1 > .connect::after {
     height: 0.1em;
     bottom: 0;
     left: 0;
-    background: currentcolor;
+    background: #F5EFE1;
     transform-origin: bottom right;
     transition: transform 0.55s ease-out;
 }
@@ -44,5 +44,9 @@ h1 > .connect:hover::after {
 
 h1 > .connect > a {
     text-decoration: none;
+    color: #F5EFE1;
+}
+
+em {
     color: #F5EFE1;
 }

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('/src/fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'MonumentExtendedUltrabold';
+    src: url('/src/fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'UniviaProRegular';
+    src: url('/src/fonts/UniviaPro-Regular.woff2') format('woff2');
+}
+
+.status {
+    display: flex; 
+    text-align: left;
+    font-family: 'MonumentExtendedUltrabold';
+    margin: 0 15%;
+    margin-top: 20%; 
+    margin-bottom: 20%;
+    text-transform: uppercase;
+}
+
+.status_info {
+    flex: 0.4;
+}
+
+.status_info h1 {
+    font-size: 3vw;
+    margin-top: 30%;
+    margin-bottom: 0;
+}
+.status_info .status_info_bottom {
+    margin-top: 0;
+    margin-bottom: 30%;
+}
+
+.status_gif {
+    flex: 0.6;
+    background: url("../monkey.gif") no-repeat 50% 50%;
+    background-size: cover;
+}

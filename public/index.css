@@ -3,6 +3,16 @@
     src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'MonumentExtendedUltrabold';
+    src: url('../fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'UniviaProRegular';
+    src: url('../fonts/UniviaPro-Regular.woff2') format('woff2');
+}
+
 body::before {
     content: "";
     position: fixed;
@@ -21,6 +31,8 @@ html {
 
 body {
     background-color: black;
+    color: white;
+    overflow-x: hidden;
 }
 
 a {

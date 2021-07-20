@@ -1,0 +1,22 @@
+.about-section {
+    margin-left: 60%;
+    margin-bottom: 6%;
+}
+
+.about-section .top{
+    margin-top: 6%;
+}
+
+.about-section p {
+    font-size: 2vw;
+    opacity: 0;
+    font-family: 'MonumentExtendedRegular';
+    margin: 0;
+}
+.about-section p > div {
+    opacity: 0;
+    transform: translateY(0px);
+}
+.about-section p.is-reveal {
+    opacity: 1;
+}

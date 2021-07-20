@@ -1,10 +1,6 @@
-@font-face {
-    font-family: 'MonumentExtendedRegular';
-    src: url('../fonts/MonumentExtended-Regular.woff2') format('woff2');
-}
-
 .outro > h1 {
     margin: 0;
+    font-size: 10vw;
 }
 
 .outro > .text > .connect {
@@ -15,7 +11,7 @@
     font-family: 'MonumentExtendedRegular';
     font-size: 4vw;
     /* color: white; */
-    margin: 0 15%;
+    margin: 0 5%;
     letter-spacing: 2px;
 }
 

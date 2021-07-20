@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MonumentExtendedUltrabold';
-    src: url('../fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
+    src: url('/src/fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
 }
 
 body {

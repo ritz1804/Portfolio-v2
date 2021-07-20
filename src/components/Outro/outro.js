@@ -25,6 +25,7 @@ function Outro() {
                     <em>.</em>
                 </span>
             </h1>
+            <br/>
             <h1 className = "text">    
                 <span>
                     Are you

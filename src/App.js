@@ -1,9 +1,9 @@
-import About from "./components/about";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import Work from "./components/work";
-import Outro from "./components/outro";
-import Status from "./components/status";
+import About from "./components/About/about";
+import Footer from "./components/Footer/footer";
+import Navbar from "./components/Navbar/navbar";
+import Work from "./components/Work/work";
+import Outro from "./components/Outro/outro";
+import Status from "./components/Status/status";
 import Scroll from "./components/scroll";
 import { CustomCursor } from "./components/customCursor";
 

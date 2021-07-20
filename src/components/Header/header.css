@@ -1,0 +1,17 @@
+.header-container-tag {
+    position: relative;
+}
+
+.header-container-tag > h1 {
+    font-size: 10vw;
+    font-family: "MonumentExtendedUltrabold";
+    margin: 0;
+}
+
+.lineParent {
+    overflow: hidden;
+}
+
+.lineParent .lineChildren {
+    transform: translate(0, 500px);
+}

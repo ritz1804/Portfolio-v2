@@ -15,7 +15,7 @@
 	color: #fff;
 	-webkit-transition: opacity 0.4s;
 	transition: opacity 0.4s;
-	font-family: "Poppins";
+	font-family: "MonumentExtendedRegular";
 	text-transform: uppercase;
 }
 
@@ -38,8 +38,7 @@
 .menu__item-img {
 	pointer-events: none;
 	position: absolute;
-	height: 50vh;
-	max-height: 400px;
+	width: 25%;
 	opacity: 0;
 	left: 100%;
 	top: 50%;
@@ -108,7 +107,7 @@
 }
 
 .marquee span {
-	font-family: "Poppins" !important;
+	font-family: "MonumentExtendedRegular" !important;
 	text-transform: uppercase;
 }
 

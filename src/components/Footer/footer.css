@@ -20,7 +20,7 @@ footer {
     color: #000;
     text-decoration: none;
     font-family: 'MonumentExtendedRegular';
-    font-size: 1vw;
+    font-size: 13px;
 }
 
 .footer_links > a::after {

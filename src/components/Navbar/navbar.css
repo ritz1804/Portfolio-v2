@@ -3,6 +3,11 @@
     src: url('/src/fonts/MonumentExtended-Ultrabold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('/src/fonts/MonumentExtended-Regular.woff2') format('woff2');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +22,7 @@ body {
     padding: 60px 0;
     display: flex;
     justify-content: space-evenly;
+    padding-left: 40%;
 }
 
 .navbar_empty {
@@ -26,10 +32,16 @@ body {
 .navbar_items > a {
     color: white;
     text-decoration: none;
-    font-family: 'MonumentExtendedUltrabold';
+    font-family: 'MonumentExtendedRegular';
     font-size: 15px;
 }
 
 .navbar_items > a:hover {
     font-size: 17px;
+}
+
+@media (max-width: 700px) {
+    .navbar_items {
+        padding-left: 0;
+    }
 }

@@ -3,7 +3,7 @@
 }
 
 .header-container-tag > h1 {
-    font-size: 10vw;
+    font-size: 7vw;
     font-family: "MonumentExtendedUltrabold";
     margin: 0;
 }
@@ -14,4 +14,10 @@
 
 .lineParent .lineChildren {
     transform: translate(0, 500px);
+}
+
+@media (max-width: 700px) {
+    .header-container-tag > h1 {
+        font-size: 14vw;
+    }
 }

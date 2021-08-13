@@ -142,3 +142,10 @@
 		transform: translate3d(var(--move-final), 0, 0);
 	}
 }
+
+@media (max-width: 700px) {
+	.work_info h1 {
+		font-size: 8vw;
+		letter-spacing: 2px;
+	}
+}

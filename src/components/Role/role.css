@@ -8,15 +8,26 @@
 }
 
 .about-section p {
-    font-size: 2vw;
-    opacity: 0;
+    font-size: 1.5vw;
     font-family: 'MonumentExtendedRegular';
     margin: 0;
 }
+
 .about-section p > div {
     opacity: 0;
     transform: translateY(0px);
 }
 .about-section p.is-reveal {
     opacity: 1;
+}
+
+@media (max-width: 700px) {
+    .about-section {
+        margin-left: 50%;
+        margin-top: 10%;
+    }    
+
+    .about-section p {
+        font-size: 15px;
+    }
 }
